@@ -1,0 +1,20 @@
+{
+	"Astro Post Template": {
+		"prefix": "post",
+		"body": [
+			"---",
+			"layout: ../../layouts/post.astro",
+			"title: \"$1\"",
+			"pubDate: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+			"description: \"$2\"",
+			"author: \"teletravago\"",
+			"isPinned: false",
+			"excerpt: \"$3\"",
+			"tags: [\"$4\"]",
+			"---",
+			"",
+			"$0"
+		],
+		"description": "Generates a new Markdown post template for teletravago.com"
+	}
+}
